@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Filtro de data ao alterar a seleção
-    const datePicker = document.getElementById('datePicker');
+    const datePicker = document.querySelector('#data_filtro');
+    
     if (datePicker) {
         datePicker.addEventListener('change', (e) => {
-            window.location.href = `index.php?data=${e.target.value}`;
+            const novaData = e.target.value;
+            window.location.href = `index.php?data=${novaData}`;
         });
     }
 
-    // Confirmação ao apagar tarefa
     const deleteButtons = document.querySelectorAll('.btn-delete');
-    deleteButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            if (!confirm('Deseja realmente excluir esta tarefa?')) {
+    deleteButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            if (!confirm('Tem certeza que deseja apagar esta tarefa?')) {
                 e.preventDefault();
             }
         });
