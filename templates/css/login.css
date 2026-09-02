@@ -1,0 +1,61 @@
+.auth-card {
+    background: var(--ios-card);
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.auth-card h2 {
+    margin-bottom: 20px;
+    color: var(--ios-text);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    background: var(--ios-input);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background: var(--ios-blue);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-footer {
+    margin-top: 15px;
+    font-size: 13px;
+    color: var(--ios-subtext);
+}
+
+.auth-footer a {
+    color: var(--ios-blue);
+    text-decoration: none;
+}
+
+.error-msg {
+    background: rgba(255, 59, 48, 0.2);
+    color: var(--ios-red);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
