@@ -27,3 +27,6 @@ Aplicação web para organização de compromissos e tarefas diárias, com inter
 - **RNF02:** Persistência de dados segura utilizando instrução preparada (Prepared Statements - PDO).
 - **RNF03:** Interface leve, intuitiva e responsiva adaptada a dispositivos móveis.
 - **RNF04:** Separação profissional de responsabilidades (Código limpo com arquivos CSS e JS externos).'
+
+**pl**
+finalizando o vínculo com o jira e atribuição das tarefas que já foram concluídas

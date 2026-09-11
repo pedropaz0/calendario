@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = `index.php?data=${novaData}`;
         });
     }
-
+//deletar
     const deleteButtons = document.querySelectorAll('.btn-delete');
     deleteButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
-            if (!confirm('Tem certeza que deseja apagar esta tarefa?')) {
+            if (!confirm('Tem certeza que deseja apagar a tarefa?')) {
                 e.preventDefault();
             }
         });
