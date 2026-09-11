@@ -30,3 +30,8 @@ Aplicação web para organização de compromissos e tarefas diárias, com inter
 
 **pl**
 finalizando o vínculo com o jira e atribuição das tarefas que já foram concluídas
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/6a06afe3-27e8-4225-9e56-84d010883484" />
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/1eb51966-98d4-4141-9137-ccaf477b7ff1" />
+
